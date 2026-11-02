@@ -1,0 +1,9 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg:#F7F7F9;--side:#EFEFF3;--card:#fff;--line:#DCDCE3;--fg:#17171A;--mute:#6A6A76}
+.dark{--bg:#0B0B0D;--side:#111115;--card:#18181D;--line:#292930;--fg:#F5F5F7;--mute:#9999A5}
+body{background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;margin:0;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.md h1,.md h2,.md h3{font-weight:600;margin:1.2em 0 .4em}.md h2{font-size:1.15rem}.md p{margin:.6em 0;line-height:1.7}
+.md ul{list-style:disc;padding-left:1.4rem}.md ol{list-style:decimal;padding-left:1.4rem}
+.md table{border-collapse:collapse;display:block;overflow-x:auto}.md td,.md th{border:1px solid var(--line);padding:.4rem .7rem}
+.md a{color:#668CFF}.md code{background:var(--card);padding:.1em .3em;border-radius:4px}
+:focus-visible{outline:2px solid #668CFF;outline-offset:2px}
